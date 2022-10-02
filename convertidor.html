@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./styles/main.css">
+    <title>Convertidor de Monedas</title>
+
+    
+</head>
+
+<body>
+<h1>Convertidor de divisas</h1>
+    <hr>
+<label>Cantidad a convertir : </label>
+    <input type="text" placeholder="0.00" id="cantidad">  
+
+<div>
+    <h3>Desde</h3>
+    <select id="sel1">
+    <option value="">Selecione su moneda</option>
+    <option value="USD">USD</option>
+    <option value="ARS">ARS</option>
+    <option value="EUR">EUR</option>
+    </select>
+</div>
+
+<div>
+    <h3>A</h3>
+    <select id="sel2">
+        <option value="">Selecione moneda a convertir</option>
+        <option value="USD">USD</option>
+        <option value="ARS">ARS</option>
+        <option value="EUR">EUR</option>
+    </select>
+</div>
+    <button id="convertir">Convertir</button>
+    <button id="reset">Reset</button>
+            </div>
+        </div>
+        <div id="cantidadFinal"><h2>Cantidad ya convertida :
+                <span id="valorFinal"class="finalValue"></span>
+            </h2>
+        </div>
+    </div>
+    <a id="link" href="index.html"><h2>Volver</h2></a>
+    <script src="./js/convertidor.js"></script>
+</body>
+</html>

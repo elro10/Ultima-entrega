@@ -1,0 +1,159 @@
+/*******ROOTS*******/
+
+:root {
+    --NotoSans: 'Noto Sans', sans-serif;
+}
+
+
+/******GLOBALES*****/
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+  *, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+}
+#link{
+    text-decoration: none;
+    color: rgb(26, 107, 221);
+    
+}
+#link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    width: 1200px;
+    margin: 0 auto!important;
+      /* background-color: var(--fondo); */
+    color: rgb(26, 107, 221);
+    background: rgb(0, 0, 0);
+    font-family: var(--NotoSans);
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostar{
+    display: block;
+}
+
+header {
+    margin: 3rem auto;
+    text-align: center;
+    width: 60%;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+header p {
+    letter-spacing: 1.6px;
+}
+h2{
+    display: block;
+    margin: 70px auto;
+    height: 35px;
+    text-align: center
+}
+
+.ingreso {
+    color: var(--colorPrincipal);
+    background-color: var(--boton);
+    margin: 0 auto;
+    padding: 1rem 0 0.4rem;
+    box-shadow: 2px 2px 8px #021743;
+    /* border: 1px solid var(--colorPrincipal); */
+    border-radius: 20px;
+    width: 35%;
+    height: auto;
+}
+
+.ingreso form {
+    height: auto;
+}
+
+.ingreso form input, form label, form button{
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+
+.ingreso form input:focus{
+    outline: 0px;
+    border-bottom: var(--borde) 1.5px solid;
+}
+
+#boton {
+    display: block;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #1441a4;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.4s;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto  ;
+}
+#button,#reset,#convertir{
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #1441a4;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+}
+#button,#reset,#convertir:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+#boton:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+td{
+    padding: 5px;
+}
+th{
+    padding: 5px;
+}
+#color {
+    display: block;
+    margin: .5rem auto;
+    border: none;
+    padding: 0;
+    height: 35px;
+    width: 25rem;
+}
+#color:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+#labelcolor {
+    display: block;
+    margin: .5rem auto;
+    border: none;
+    padding: 0;
+    height: 35px;
+    width: 25rem;
+    text-align: center;
+}
+#email,#monto,#tiempo,#intereses{
+    height: auto;
+    width: 17rem;
+    margin: .5rem .5rem;
+}

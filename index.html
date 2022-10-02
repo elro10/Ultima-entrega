@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|=swap" rel="stylesheet">
+    <title>Ultima entrega</title>
+</head>
+<body>
+    <header>
+        <h1>Simulador de prestamo</h1>
+        <p>En este espacio podrás simular prstamos de la manera que más se te adecue.</p>
+    </header>
+
+
+<body>
+    <div class="entrada">
+        <form id="formulario-usuario">
+            <label for="user">Ingrese nombre para poder continuar.</label>
+            <input id="user" type="text" placeholder="Nombre">
+            <input id ="button" type="submit" value="Buscar">
+        </form>
+        <div id="datos"></div>
+        <label id="labelcolor" for="">Selecciona un color</label>
+        <input id="color" type="color" name="color" value="#1F8A70">
+
+
+    <div>
+        <div>
+            <div>
+                <a id="link"href="convertidor.html"><h2>🤙Ahora tenemos un nuevo servicio de converciones👌</h2></a>
+                <h2>Calcular amortización método francés</h2>
+                <div>
+                    <label for="monto">Monto</label>
+                    <input type="text" class="form-control" id="monto" placeholder="Ingresar monto">
+                </div>
+                <div>
+                    <label for="tiempo">Tiempo en Meses</label>
+                    <input type="text" class="form-control" id="tiempo" placeholder="Ingresar cantidad de meses">
+                </div>
+                <div>
+                    <label for="interes">Interés Mensual</label>
+                    <input type="text" class="form-control" id="interes" placeholder="Ingresar tasa de interés mensual">
+                </div>
+                <button type="submit" class="btn btn-primary" id="boton">Vamos</button>
+            </div>
+            <div class="col-6">
+                <table id="lista-tabla" class="table">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Cuota</th>
+                            <th>Capital</th>
+                            <th>Interés</th>
+                            <th>Saldo</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/amortizacion.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+
+</html>
